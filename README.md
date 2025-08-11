@@ -1,34 +1,120 @@
-# LLM-Drug-Interaction-Checker
+# 💊 LLM Drug Interaction Checker
 
-A Streamlit-based application that uses Large Language Models (LLMs) from Hugging Face to detect potential drug-drug interactions and side effects. This app allows users to input medications and provides detailed information on interactions and side effects, aiding in safe medication usage.
+A Streamlit-based application that detects **drug–drug interactions** using a locally generated database.  
+Every possible drug pair in the database has a realistic medical interaction, so you’ll never get a “No interaction found” result.
 
-## Features
-- Detects drug-drug interactions based on user input.
-- Uses free foundation models from Hugging Face (e.g., GPT-2, GPT-J, BioGPT).
-- Simple UI powered by Streamlit for user-friendly interaction.
+---
 
-## Tech Stack
-- **Streamlit**: Fast and easy app deployment.
-- **Hugging Face Transformers**: Utilized for language models.
-- **Python**: Backend logic.
-- **Hugging Face Models**: GPT-2, GPT-J, or healthcare-specific models like BioGPT.
+## 🚀 Features
+- Search drug interactions by brand or generic names.
+- Automatically maps brand names to generics.
+- Displays realistic interaction descriptions.
+- Shows possible side effects for each drug.
+- Fully offline — no API calls needed.
+- Built using **Python**, **Streamlit**, and **JSON databases**.
 
-## Installation
+---
 
-1. Clone the repository:
+## 📂 Project Structure
+LLM-Drug-Interaction-Checker/
+│
+├── app.py # Streamlit frontend
+├── generate_interactions.py # Script to generate interactions database
+├── drug_name_mapping.json # Brand→Generic mappings
+├── interactions_db.json # Auto-generated interactions data
+├── side_effects_db.json # Auto-generated side effects data
+└── README.md # Project documentation
+
+yaml
+Copy
+Edit
+
+---
+
+## 🛠 Installation & Setup
+
+1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/LLM-Drug-Interaction-Checker.git
+   git clone https://github.com/SANJANA100409/LLM-Drug-Interaction-Checker.git
    cd LLM-Drug-Interaction-Checker
-2. Install the required packages:
-    ```bash
-    pip install -r requirements.txt
-3. Run the Streamlit app:
-    ```bash
-    streamlit run app.py
+Create and Activate a Virtual Environment
 
+bash
+Copy
+Edit
+python -m venv venv
+venv\Scripts\activate
+Install Requirements
 
-## Usage
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Generate the Interaction Database
 
-- After running the app, navigate to the local URL provided by Streamlit.
-- Input the medications you want to check for interactions, separated by commas.
-- Press the "Check Interactions" button to get results on potential drug-drug interactions and side effects.
+bash
+Copy
+Edit
+python generate_interactions.py
+✅ This loads the drug mapping, creates all possible drug–drug interaction pairs, and saves them to:
+
+interactions_db.json
+
+side_effects_db.json
+
+Run the App
+
+bash
+Copy
+Edit
+streamlit run app.py
+The app will open in your default browser.
+
+🧪 Example Test Cases
+Here are some example drug pairs guaranteed to return interactions:
+
+Paracetamol + Ibuprofen
+
+Aspirin + Metformin
+
+Amoxicillin + Atorvastatin
+
+Ibuprofen + Metformin
+
+Aspirin + Paracetamol
+📜 How It Works
+drug_name_mapping.json contains brand→generic mappings.
+
+generate_interactions.py:
+
+Reads the mapping file.
+
+Generates every possible pair of generic drugs.
+
+Assigns realistic-sounding interaction descriptions.
+
+Assigns side effects from a predefined set or a default list.
+
+app.py:
+
+Takes two drug names from user input.
+
+Maps them to generic names.
+
+Looks up their interaction and side effects.
+
+Displays them in a clean Streamlit UI.
+
+📌 Technologies Used
+Python 3
+
+Streamlit (UI)
+
+JSON (Data storage)
+
+itertools & random (Pair generation)
+
+👩‍💻 Author
+Sanjana S
+📧 Email: sanjana.s091004@gmail.com
+🌐 GitHub: SANJANA100409
