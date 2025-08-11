@@ -25,12 +25,6 @@ LLM-Drug-Interaction-Checker/
 ├── side_effects_db.json # Auto-generated side effects data
 └── README.md # Project documentation
 
-yaml
-Copy
-Edit
-
----
-
 ## 🛠 Installation & Setup
 
 1. **Clone the Repository**
@@ -39,22 +33,13 @@ Edit
    cd LLM-Drug-Interaction-Checker
 Create and Activate a Virtual Environment
 
-bash
-Copy
-Edit
 python -m venv venv
 venv\Scripts\activate
 Install Requirements
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Generate the Interaction Database
 
-bash
-Copy
-Edit
 python generate_interactions.py
 ✅ This loads the drug mapping, creates all possible drug–drug interaction pairs, and saves them to:
 
@@ -64,9 +49,6 @@ side_effects_db.json
 
 Run the App
 
-bash
-Copy
-Edit
 streamlit run app.py
 The app will open in your default browser.
 
@@ -82,6 +64,7 @@ Amoxicillin + Atorvastatin
 Ibuprofen + Metformin
 
 Aspirin + Paracetamol
+
 📜 How It Works
 drug_name_mapping.json contains brand→generic mappings.
 
