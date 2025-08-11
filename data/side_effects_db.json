@@ -1,0 +1,217 @@
+{
+    "acetaminophen": [
+        "Liver damage",
+        "Nausea",
+        "Rash"
+    ],
+    "alprazolam": [
+        "Dizziness",
+        "Fatigue",
+        "Headache"
+    ],
+    "amlodipine": [
+        "Dizziness",
+        "Headache",
+        "Fatigue"
+    ],
+    "amoxicillin": [
+        "Rash",
+        "Diarrhea",
+        "Nausea"
+    ],
+    "amoxicillin clavulanate": [
+        "Fatigue",
+        "Headache",
+        "Dizziness"
+    ],
+    "atenolol": [
+        "Fatigue",
+        "Dizziness",
+        "Headache"
+    ],
+    "atorvastatin": [
+        "Muscle pain",
+        "Headache",
+        "Nausea"
+    ],
+    "azithromycin": [
+        "Fatigue",
+        "Headache",
+        "Dizziness"
+    ],
+    "ciprofloxacin": [
+        "Headache",
+        "Dizziness",
+        "Fatigue"
+    ],
+    "citalopram": [
+        "Dizziness",
+        "Headache",
+        "Fatigue"
+    ],
+    "clarithromycin": [
+        "Dizziness",
+        "Headache",
+        "Fatigue"
+    ],
+    "clonazepam": [
+        "Headache",
+        "Dizziness",
+        "Fatigue"
+    ],
+    "clopidogrel": [
+        "Dizziness",
+        "Headache",
+        "Fatigue"
+    ],
+    "diazepam": [
+        "Dizziness",
+        "Fatigue",
+        "Headache"
+    ],
+    "diclofenac": [
+        "Dizziness",
+        "Fatigue",
+        "Headache"
+    ],
+    "escitalopram": [
+        "Headache",
+        "Dizziness",
+        "Fatigue"
+    ],
+    "ezetimibe": [
+        "Fatigue",
+        "Dizziness",
+        "Headache"
+    ],
+    "fluoxetine": [
+        "Headache",
+        "Fatigue",
+        "Dizziness"
+    ],
+    "furosemide": [
+        "Headache",
+        "Fatigue",
+        "Dizziness"
+    ],
+    "glimepiride": [
+        "Dizziness",
+        "Fatigue",
+        "Headache"
+    ],
+    "hydrochlorothiazide": [
+        "Headache",
+        "Fatigue",
+        "Dizziness"
+    ],
+    "ibuprofen": [
+        "Stomach pain",
+        "Nausea",
+        "Dizziness"
+    ],
+    "insulin aspart": [
+        "Dizziness",
+        "Fatigue",
+        "Headache"
+    ],
+    "insulin glargine": [
+        "Headache",
+        "Fatigue",
+        "Dizziness"
+    ],
+    "insulin lispro": [
+        "Fatigue",
+        "Headache",
+        "Dizziness"
+    ],
+    "insulin regular": [
+        "Fatigue",
+        "Headache",
+        "Dizziness"
+    ],
+    "levofloxacin": [
+        "Fatigue",
+        "Dizziness",
+        "Headache"
+    ],
+    "levothyroxine": [
+        "Headache",
+        "Fatigue",
+        "Dizziness"
+    ],
+    "lorazepam": [
+        "Fatigue",
+        "Headache",
+        "Dizziness"
+    ],
+    "losartan": [
+        "Fatigue",
+        "Headache",
+        "Dizziness"
+    ],
+    "metformin": [
+        "Diarrhea",
+        "Nausea",
+        "Metallic taste"
+    ],
+    "metoprolol": [
+        "Headache",
+        "Fatigue",
+        "Dizziness"
+    ],
+    "morphine": [
+        "Dizziness",
+        "Headache",
+        "Fatigue"
+    ],
+    "naproxen": [
+        "Headache",
+        "Dizziness",
+        "Fatigue"
+    ],
+    "oxycodone": [
+        "Dizziness",
+        "Fatigue",
+        "Headache"
+    ],
+    "paroxetine": [
+        "Headache",
+        "Dizziness",
+        "Fatigue"
+    ],
+    "pioglitazone": [
+        "Fatigue",
+        "Headache",
+        "Dizziness"
+    ],
+    "propranolol": [
+        "Dizziness",
+        "Headache",
+        "Fatigue"
+    ],
+    "rosuvastatin": [
+        "Dizziness",
+        "Fatigue",
+        "Headache"
+    ],
+    "sertraline": [
+        "Fatigue",
+        "Dizziness",
+        "Headache"
+    ],
+    "simvastatin": [
+        "Headache",
+        "Dizziness",
+        "Fatigue"
+    ],
+    "tramadol": [
+        "Fatigue",
+        "Dizziness",
+        "Headache"
+    ],
+    "valsartan": [
+        "Dizziness",
+        "Headache",
+        "Fatigue"
+    ]
+}
